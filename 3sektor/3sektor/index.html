@@ -1,0 +1,22 @@
+<?php
+$include = TRUE;
+$t = "index";
+require "include/funkcje.inc";
+$tresc = "
+			<h2><img alt=\"\" src=\"img/index_webmaster.jpg\" height=\"75\" width=\"100\" style=\"margin-right: 10px;\" align=\"left\" /><a href=\"http://webmaster.3sektor.org\" class=\"red\">Stworzenie Waszej strony za darmo</a></h2>
+     		<p>" . pobierz_TXT ("index_webmaster") . " <a href=\"webmaster\">wiêcej&raquo;</a></p>
+			<hr />
+     		<h2><img alt=\"\" src=\"img/index_hosting.jpg\" height=\"75\" width=\"100\" style=\"margin-right: 10px;\" align=\"left\" /><a href=\"http://hosting.3sektor.org\" class=\"red\">Miejsce na Wasz± stronê i pocztê</a></h2>
+			<p>" . pobierz_TXT ("index_hosting") . " <a href=\"hosting\">wiêcej&raquo;</a></p><hr /><p>";
+$tresc.= pobierz_RSS ("http://www.webinside.pl/rss.php", "rss/webinside/", "Wiadomo¶ci Webinside.pl");
+$tresc.= "</p><hr /><p>";
+$tresc.= pobierz_RSS ("http://rss.di.com.pl/di.rss", "rss/di/", "Wiadomo¶ci Dziennika Internautów");
+$tresc.= "</p><hr /><p>";
+$tresc.= pobierz_RSS ("http://rssout.idg.pl/iso_rss_news_internet_30.xml", "rss/idg_internet/", "Wiadomo¶ci IDG.pl - internet");
+$tresc.= "</p><hr /><p>";
+$tresc.= pobierz_RSS ("http://rssout.idg.pl/is/news_iso.xml", "rss/is_news/", "Wiadomo¶ci Internet Standard");
+$tresc.= "</p><hr /><p>";
+$tresc.= pobierz_RSS ("http://www.kidprotect.pl/rss.php", "rss/kidprotect/", "Newsy Kidprotect.pl");
+$tresc.= "</p>";
+print czytajSzablon ($tresc);
+?>

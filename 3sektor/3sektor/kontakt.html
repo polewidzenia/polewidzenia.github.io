@@ -1,0 +1,18 @@
+<?php
+# zmienna kontrolna includowania
+$include = TRUE;
+
+# zmienna kontrolna do tagow
+$t = "kontakt";
+
+# dolaczenie wymaganego pliku z funkcjami
+require "include/funkcje.inc";
+
+# tresc strony
+$tresc = "<h1><img width=\"150\" height=\"100\" alt=\"Kontakt z nami\" src=\"img/"
+		 . $t . ".jpg\" align=\"left\" style=\"margin-right: 10px;\" />Kontakt z nami</h1>";
+$tresc.= "<p>" . pobierz_TXT ("kontakt") . "</p>";
+
+# wyswietlenie szablonu
+print czytajSzablon ($tresc);
+?>

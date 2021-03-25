@@ -1,0 +1,52 @@
+Netykieta, czyli internetowy savoir-vivre|[b][r]Netykieta (ang. netiquette) to zbiór zasad przyzwoitego zachowania w Internecie, swoista etykieta obowi±zuj±ca w sieci (ang. net).[/b][/r]
+
+Netykieta, podobnie jak zwyk³e zasady przyzwoitego zachowania, nie jest dok³adnie skodyfikowana, nikt te¿ nie zajmuje siê systematycznym karaniem osób ³ami±cych te zasady, jednak uparte ³amanie zasad netykiety mo¿e siê wi±zaæ z ró¿nymi przykrymi konsekwencjami, jak np.: zg³oszenie nadu¿ycia do dzia³u abuse i odciêcie "niegrzecznego" osobnika od okre¶lonej us³ugi internetowej przez administratora tej us³ugi.
+
+Zasady netykiety wynikaj± wprost z ogólnych zasad przyzwoito¶ci lub s± odzwierciedleniem niemo¿liwych do ujêcia w standardy ograniczeñ technicznych wynikaj±cych z natury danej us³ugi Internetu.
+
+[b][14]Zalecenia netykiety[/14][/b]
+
+[b]Dla grup i list dyskusyjnych s± to:[/b]
+* zakaz <a href=http://pl.wikipedia.org/wiki/Spam target=_blank>spamowania</a>
+* zakaz wysy³ania tzw. "<a href=http://pl.wikipedia.org/wiki/%C5%81a%C5%84cuszki target=_blank>³añcuszków szczê¶cia</a>"
+* nakaz zapoznania siê z wykazem <a href=http://pl.wikipedia.org/wiki/FAQ target=_blank>FAQ</a> przed zadaniem pytania
+* stosowanie siê do regu³ pisania obowi±zuj±cych w danej grupie (sposób kodowania polskich liter, zasad cytowania, mo¿liwo¶ci wysy³ania (lub nie) wiadomo¶ci formatowanych w HTML-u, mo¿liwo¶ci do³±czania (lub nie) plików binarnych), co zwykle jest szczegó³owo opisane w FAQ danej grupy
+* zakaz nadmiernego cross-postowania czyli wysy³ania maili/postów do kilku grup naraz
+* zakaz pisania nie na temat
+* zakaz pisania kilka razy pod rz±d
+
+[b]Dla us³ug interaktywnych (IRC, komunikatory, czaty, fora dyskusyjne na stronach WWW):[/b]
+* zakaz <a href=http://pl.wikipedia.org/wiki/Flood_%28informatyka%29 target=_blank>floodowania</a>
+* nakaz zapoznania siê z <a href=http://pl.wikipedia.org/wiki/FAQ target=_blank>FAQ</a> danego kana³u/forum/czatu i przestrzeganie zawartych tam zasad szczegó³owych
+* zakaz nagabywania (upartego ³±czenia siê z) osób które sobie tego nie ¿ycz±
+* zasady dotycz±ce znaków diakrytycznych (u¿ytkownicy wielu kana³ów nie ¿ycz± sobie u¿ywania polskich liter, irc.pl podaje "Polskie litery koduj w <a href=http://pl.wikipedia.org/wiki/ISO-8859-2 target=_blank>ISO-8859-2</a> lub ich nie u¿ywaj")
+* zasady korzystania z ró¿nych jêzyków na kana³ach wielonarodowo¶ciowych
+* zakaz wysy³ania tzw. "<a href=http://pl.wikipedia.org/wiki/%C5%81a%C5%84cuszki target=_blank>³añcuszków szczê¶cia</a>"
+
+[b]Przyk³ady zachowañ sprzecznych z netykiet±[/b]
+* <a href=http://pl.wikipedia.org/wiki/K%C5%82%C3%B3tnia_internetowa target=_blank>flamewar</a>
+* <a href=http://pl.wikipedia.org/wiki/Trolling target=_blank>trolling</a>
+
+[b][14]Ograniczenia prawne[/14][/b]
+
+[b]Szczególnie nie nale¿y publikowaæ w internecie niezgodnych z prawem tre¶ci, które:[/b]
+* promuj± alkohol (art. 2 (1) Ustawy o wychowaniu w trze¼wo¶ci i przeciwdzia³aniu alkoholizmowi z dnia 26 pa¼dziernika 1982r.);
+* promuj± ¶rodki odurzaj±ce, narkotyki (art.1 Ustawy o przeciwdzia³aniu narkomanii z dnia 24 kwietnia 1997r.);
+* zawieraj± s³owa powszechnie uznane za niecenzuralne (art. 3 Ustawy o jêzyku polskim z dnia 7 pa¼dziernika 1999r.);
+* przyczyniaj± siê do (piractwa) - ³amania praw autorskich (Ustawa o prawie autorskim i prawach pokrewnych z dnia 4 lutego 1994r.).
+* l¿± osoby publiczne (art. 23 Kodeksu cywilnego);
+* obra¿aj± inne narodowo¶ci, rasy ludzkie, religie (art. 23 Kodeksu cywilnego oraz art. 194 - 196 i art. 257 Kodeksu karnego);
+* zawieraj± pomówienia - informacje obarczaj±ce niepotwierdzonymi zarzutami inne osoby (art. 23 Kodeksu cywilnego);
+* propaguj± tre¶ci faszystowskie (art. 256 Kodeksu karnego)
+* nawo³uj± do pope³nienia przestêpstwa (Art. 255 Kodeksu karnego)
+* namawiaj± do pope³nienia lub doradzaj± w pope³nieniu samobójstwa lub samokaleczenia (art. 151 Kodeksu karnego)
+* gro¿± innym osobom pope³nieniem przestêpstwa na jego szkodê lub szkodê osoby jego najbli¿szej (art. 190 Kodeksu karnego)
+* ujawniaj± bez czyjej¶ wyra¼nej zgody dane osobowe, identyfikator GG czy innych komunikatorów, fotografie, adres e-mail, miejsce zamieszkania, pracy, przebywania, numery telefonów, tablic rejestracyjnych i inne poufne dane (Ustawa z dnia 29 sierpnia 1997 r. o ochronie danych osobowych)
+
+[b][14]Inne wa¿ne informacje[/b][/14]
+
+* W miarê mo¿liwo¶ci nie u¿ywaj HTML - na grupach dyskusyjnych w ogóle, w poczcie elektronicznej - bez wyra¼nej zgody odbiorcy.
+* Pamiêtaj o u¿ywaniu i deklarowaniu w³a¶ciwego jêzyka lub zestawu znaków w³a¶ciwego dla danego jêzyka. Zaleca siê stosowanie <a href=http://pl.wikipedia.org/wiki/ISO-8859-2 target=_blank>ISO-8859-2</a> dla jêzyka polskiego i <a href=http://pl.wikipedia.org/wiki/UTF-8 target=_blank>UTF-8</a> dla tekstów wielojêzycznych, jednak lokalne zalecenia mog± nak³adaæ wiêksze ograniczenia (np. zakaz u¿ywania znaków diakrytycznych).
+* Pisz poprawnie, u¿ywaj±c w miarê potrzeby wszystkich znaków danego jêzyka i wykorzystuj±c w pe³ni mo¿liwo¶ci konfiguracji u¿ywanych programów. Je¶li program nie ma po¿±danej funkcjonalno¶ci (np. nie obs³uguje <a href=http://pl.wikipedia.org/wiki/MIME target=_blank>MIME</a> czy nie ma s³ownika), zmieñ go na inny.
+
+¼ród³o: [b]<a href=http://pl.wikipedia.org/wiki/Netykieta target=_blank>WIKIPEDIA</a>[/b]

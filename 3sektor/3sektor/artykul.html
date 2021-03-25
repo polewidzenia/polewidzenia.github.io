@@ -1,0 +1,26 @@
+<?php
+# zmienna kontrolna includowania
+$include = TRUE;
+
+# zmienna kontrolna do tagow
+$t = "artykul";
+
+# sprawdzenie zmiennej ID
+if ($_GET ["id"] == "" OR !is_numeric ($_GET ["id"]) )
+	{header ("Location: materialy.html"); exit;}
+
+# sprawdzenie istnienia pliku
+$txt = "m" . $_GET ["id"];
+if (!file_exists ("txt/" . $txt . ".txt") )
+	{header ("Location: materialy.html"); exit;}
+
+# dolaczenie wymaganego pliku z funkcjami
+require "include/funkcje.inc";
+
+# tresc strony
+$tresc.= pobierz_ART ($txt);
+
+$tresc.= "<p style=\"margin: 20px; text-align: center; font-weight: bold;\"><a href=\"materialy.html\">powrót do materia³ów</a></p>";
+# wyswietlenie szablonu
+print czytajSzablon ($tresc);
+?>

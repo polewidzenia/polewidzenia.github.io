@@ -1,0 +1,25 @@
+PhpBB|Jeden z najpopularniejszych, darmowych skryptów do prowadzenia w³asnego forum dyskusyjnego. Do¶æ rozbudowany, ale prosty w konstrukcji.|phpBB-2.0.22-PL.zip
+phpAds|Skrypt rotacji bannerów daj±cy ogromne mo¿liwo¶ci. Pozwala udostêpniaæ statystyki na oddzielny login i haslo do ka¿dego bannnera.|phpads_1.4.0.zip
+PhpAdsNew|Skrypt rotacji bannerów udostêpniaj±cy statystyki, wysy³aj±cy statystyki na email, i wiele innych ciekawych funkcji.|phpadsnew-rc3.zip
+Joomla|Najlepszy chyba z darmowych skryptów do prowadzenia w³asnej strony, od stosunkowo niewielkiej do rozbudowanego portalu, bardzo popularny, w sieci mo¿na znale¼æ wiele darmowych szablonów graficznych i dodatkowych komponentów. Wersja polska|joomla_1011+Admin-pl.zip
+MySiteFree|Jest to stronka w php któr± ³atwo dostosowaæ bez wiedzy na temat php czy html.|mysitefree.zip
+PostNuke|Kolejny popularny skrypt portalowy napisany w PHP.|postnuke71.zip
+Tekstowy System Portalowy|Jest to idealny system, dla osób pocz±tkuj±cych z PHP, nie ma wielkich wymagañ (php 4 lub wy¿ej) oraz w³±czona obs³uga cookies. Po zainstalowaniu mozemy swobodnie administrowac stron±. Idealny na ma³y i ¶redni serwis. Mo¿liwo¶c rozbudowy wg. pomys³owo¶ci. Nie wymaga ¿adnych baz danych.|tsp01e.zip
+PHP-Nuke|Najpopularniejszy darmowy system portalowy napisany w PHP i MySQL (posiada funkcje obs³ugi baz danych mSQL, PostgreSQL, ODBC, ODBC_Adabas, Sybase or Interbase oraz MySQL). Posiada wiele funkcji.|phpnuke6.5.zip
+PGallery|Skrypt napisany w PHP. Pozwala uruchomiæ na stronie galeriê internetow±. Prosty w instalacji i obs³udze.|pgallery09.zip
+PHP Simple Gallery Script|Prosty skrypt napisany w PHP do stworzenia ma³ej galerii internetowej.|simplegallery.zip
+php Digital Photo Album|Sktypt oparty o PHP i bazê danych MySQL. Pozwala zarz±dzaæ internetow± galeri± zdjêæ.|phpdpa_v1.1.zip
+MyGuestbook|Ksiêga go¶ci napisana w PHP i MySQL. Jest skryptem napisanym w kilku jêzykach.|myguestbook-0.9.5.zip
+Advanced Guestbook Script|Wielofunkcyjny skrypt napisany w PHP i MySQL do prowadzenia w³asnej ksiêgi go¶ci.|gbookphp.zip
+Very Easy Guestbook|Prosty skrypt ksiêgi go¶ci napisany w PHP. Bazuje na plikach tekstowych.|eguestbook13.zip
+phpBook|Skrypt do prowadzenia w³asnej ksiêgi go¶ci. Bardzo rozbudowany, napisany w PHP i MySQL.|phpbook14.zip
+WD_Ksiêga Go¶ci|Prosta ksiêga go¶ci oparta o pliki tekstowe, wymaga PHP, bez potrzeby SQL.|ksiega.rar
+PHPMailList|Skrypt mailinglisty wymagazj±cy PHP. Posiada w³asny panel administracyjny.|phplist14.zip
+Simple Mailing List|Mailinglista napisana w PHP i oparta o pliki tekstowe. ¦rednio zaawansowana.|maillistw.zip
+PHPlist|Rozbudowany i potê¿ny skrypt do prowadzenia mailinglisty. Wymaga PHP i MySQL.|phplist14.zip
+Article Manager|Ma³y i prosty skrypt napisany w PHP skrypt do obs³ugi systemu newsów.|articlemanager.zip
+phpNewsManager|Jeden z najlepszych i najbardziej zaawansowanych systemów newsów. Wymaga PHP i MySQL.|newman.zip
+Ca News System|Skrypt ten s³u¿y do zarz±dzania informacjami o nowo¶ciach. Opiera siê w ca³o¶ci na plikach testowych - nie wymaga bazy SQL. Skrypt jest darmowy dla stosowania na stronach niekomercyjnych. Mo¿na go swobodnie rozpowszechniaæ, pod warunkiem nie pobierania za niego ¿adnych op³at oraz zachowania oryginalnej struktury (stopka informacyjna). Dozwolone s± wszelkie modyfikacje na potrzeby w³asne - w ka¿dym przypadku nale¿y jednak zachowaæ stopkê informacyjn±.|canews.zip
+SimpNews|Zaawansowany skrypt newsów. Wymaga PHP i MySQL. Do newsów mo¿na dodawaæ obrazki, posiada wyszukiwarkê.|simpnews.zip
+Sonda|Sonda napisana w jêzyku PHP|sonda.rar
+B-Poll|B-Poll jest efektywnym rozwi±zaniem je¿eli potrzebujemy na swojej stronie umie¶ciæ jak±¶ sondê, a z ró¿nych powodów nie odpowiadaj± nam sondy on-line.|b-poll-rc2.zip

@@ -1,0 +1,29 @@
+<?php
+# zmienna kontrolna includowania
+$include = TRUE;
+
+# zmienna kontrolna do tagow
+$t = "skrypty";
+
+# dolaczenie wymaganego pliku z funkcjami
+require "include/funkcje.inc";
+
+# tresc strony
+$tresc = "<h1><img width=\"150\" height=\"100\" alt=\"Darmowe skrypty\" src=\"img/"
+		 . $t . ".jpg\" align=\"left\" style=\"margin-right: 10px;\" />Darmowe skrypty</h1>";
+$tresc.= "<p style=\"margin-bottom: 10px;\">" . pobierz_TXT ("skrypty") . "</p><hr />";
+# dolaczenie do tresci listy plikow
+$skrypty = file ("txt/lista_skryptow.txt");
+for ($i = 0; $i < count ($skrypty); $i++)
+	 {
+	 $nr++;
+	 $skrypt = trim ($skrypty [$i]);
+	 list ($tytul, $opis, $plik) = explode ("|",$skrypt);
+	 $obiekt.= "<p style=\"margin-bottom: 10px;\"><span style=\"font-weight: bold;\">" . $nr . ". " . $tytul . "</span><br />";
+	 $obiekt.= $opis . " ";
+	 $obiekt.= "<a class=\"red\" href=\"file/" . $plik . "\">pobierz plik &raquo;</a></p>";
+	 }
+$tresc.= $obiekt;
+# wyswietlenie szablonu
+print czytajSzablon ($tresc);
+?>

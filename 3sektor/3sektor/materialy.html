@@ -1,0 +1,36 @@
+<?php
+# zmienna kontrolna includowania
+$include = TRUE;
+
+# zmienna kontrolna do tagow
+$t = "materialy";
+
+# dolaczenie wymaganego pliku z funkcjami
+require "include/funkcje.inc";
+
+# tresc strony
+$tresc = "<h1><img width=\"150\" height=\"100\" alt=\"Darmowe materia³y\" src=\"img/"
+		 . $t . ".jpg\" align=\"left\" style=\"margin-right: 10px;\" />Darmowe materia³y</h1>";
+$tresc.= "<p>" . pobierz_TXT ("materialy") . "</p>";
+$tresc.= "<hr /><h2>Nasze materia³y</h2>";
+#$tresc.= "<p style=\"font-weight: bold;\">+ <a href=\"slownik.html\">s³owniczek internetowy</a></p>";
+$tablica = file ("txt/lista_materialow.txt");
+for ($i = 0; $i < count ($tablica); $i++)
+	 {
+	 $rekord = $tablica [$i];
+	 list ($id, $tytul) = explode ("|",$rekord);
+	 $tresc.= "<p>+ <a href=\"artykul.html?id=" . $id . "\">" . $tytul . "</a></p>";
+	 }
+$tresc.= "<hr /><h2>Odwied¼ koniecznie</h2>";
+# linki
+$tablica = file ("txt/linki.txt");
+for ($i = 0; $i < count ($tablica); $i++)
+	 {
+	 $rekord = $tablica [$i];
+	 list ($tytul, $link) = explode ("|",$rekord);
+	 $tresc.= "<p>+ <a href=\"" . $link . "\" target=\"_blank\">" . $tytul . "</a></p>";
+	 }
+$tresc.= "<hr /><p>" . pobierz_RSS ("http://rssout.idg.pl/is/artykuly_iso.xml", "rss/is_art", "Artyku³y Internet Standard") . "</p>";
+# wyswietlenie szablonu
+print czytajSzablon ($tresc);
+?>

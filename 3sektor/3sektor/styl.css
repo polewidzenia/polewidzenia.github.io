@@ -1,0 +1,286 @@
+BODY
+    {
+	 margin: 0px auto;
+	 text-align: center;
+	 background-color: #ffdd66;
+	 }
+
+#wrap
+    {
+	 margin: 0px auto;
+	 text-align: center;
+	 width: 750px;
+	 }
+
+#wrapTable
+    {
+	 border-top: 0px;
+	 border-bottom: 0px;
+	 margin: 0px auto;
+	 padding: 0px;
+	 width: 748px;
+	 border-left: 1px solid #000000;
+	 border-right: 1px solid #000000;
+	 background-color: #FFFFBB;
+	 }
+
+#top1
+    {
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 float: left;
+	 width: 748px;
+	 height: 111px;
+	 }
+	 
+#top2
+    {
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 float: left;
+	 width: 265px;
+	 height: 89px;
+	 }
+
+#top3
+    {
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 float: left;
+	 width: 483px;
+	 height: 89px;
+	 }
+
+#top4
+    {
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 float: left;
+	 width: 748px;
+	 height: 48px;
+	 }
+
+/* lewa warstwa */
+#left
+    {
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 width: 531px;
+	 float: left;
+	 background-repeat: repeat;
+	 background-image: url('img/left_back.jpg');
+	 }
+
+/* gorne wykonczenie lewej warstwy */
+#left_t
+    {
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 width: 531px;
+	 height: 40px;
+	 float: left;
+	 }
+
+/* dolne wykonczenie lewej warstwy */
+#left_b
+    {
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 width: 531px;
+	 height: 52px;
+	 float: left;
+	 }
+
+/* warstwa prawego menu nawigacyjnego */
+#menu
+    {
+	 width: 217px;
+	 float: left;
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 }
+
+/* warstwa stopki strony */
+#footer
+    {
+	 clear: both;
+	 border-top: 1px solid #000000;
+	 width: 728px;
+	 margin-left: 10px;
+	 }
+
+h1
+    {
+	 margin-top: 0px;
+	 margin-bottom: 10px;
+	 margin-left: 50px;
+	 margin-right: 25px;
+	 text-align: left;
+	 font-family: verdana, tahoma, helvetiva, geneva, arial, sans-serif;
+	 font-size: 26px;
+	 font-weight: normal;
+	 color: #ff5500;
+	 }
+
+/* formatowanie tytulow na stronie glownej */
+h2
+    {
+	 margin-top: 0px;
+	 margin-bottom: 0px;
+	 margin-left: 50px;
+	 margin-right: 25px;
+	 text-align: left;
+	 font-family: verdana, tahoma, helvetiva, geneva, arial, sans-serif;
+	 font-size: 14px;
+	 font-weight: bold;
+	 color: #aa0000;
+	 }
+
+/* formatowanie leadu */
+h3
+    {
+	 margin-top: 0px;
+	 margin-bottom: 10px;
+	 margin-left: 50px;
+	 margin-right: 25px;
+	 text-align: left;
+	 font-family: verdana, tahoma, helvetiva, geneva, arial, sans-serif;
+	 font-size: 12px;
+	 font-weight: bold;
+	 line-height: 150%;
+	 }
+h4
+    {
+	 margin-top: 0px;
+	 margin-bottom: 10px;
+	 margin-left: 50px;
+	 margin-right: 25px;
+	 text-align: left;
+	 font-family: verdana, tahoma, helvetiva, geneva, arial, sans-serif;
+	 font-size: 16px;
+	 font-weight: bold;
+	 line-height: 150%;
+	 color: #ff5500;
+	 }
+h5
+    {}
+
+/* formatowanie stopki strony */
+h6
+    {
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+	 margin-right: 0px;
+	 margin-left: 0px;
+	 text-align: justify;
+	 font-family: verdana, tahoma, helvetica, geneva, arial, sans-serif;
+	 font-size: 11px;
+	 font-weight: normal;
+	 }
+
+
+/* formatowanie standardowego akapitu */
+p
+    {
+	 margin-top: 0px;
+	 margin-bottom: 0px;
+	 margin-right: 25px;
+	 margin-left: 50px;
+	 line-height: 150%;
+	 text-align: justify;
+	 font-family: verdana, tahoma, helvetica, geneva, arial, sans-serif;
+	 font-size: 12px;
+	 }
+
+p.top
+    {
+	 text-align: right;
+	 font-size: 10px;
+	 font-weight: bold;
+	 }
+/* formatowanie linii poziomej */
+hr
+    {
+	 width: 455px;
+	 margin-left: 50px;
+	 border: solid #FFCC22 1px;
+	 height: 0;
+	 }
+
+/* formatowanie standardowych linkow */
+a:link
+    {
+	 text-decoration: underline;
+	 color: #2222ff;
+	 }
+a:visited
+    {
+	 text-decoration: underline;
+	 color: #222277;
+	 }
+a:active
+    {
+	 text-decoration: underline;
+	 color: #ff0000;
+	 }
+a:hover
+    {
+	 text-decoration: underline;
+	 color: #990000;
+	 }
+
+/* formatowanie linkow czerwonych */
+.red:link
+    {
+	 text-decoration: none;
+	 color: #bb0000;
+	 }
+.red:visited
+    {
+	 text-decoration: none;
+	 color: #bb0000;
+	 }
+.red:active
+    {
+	 text-decoration: none;
+	 color: #bb0000;
+	 }
+.red:hover
+    {
+	 text-decoration: underline;
+	 color: #ff0000;
+	 }
+
+/* formatowanie kotwic */
+.anchor:link
+    {
+	 text-decoration: none;
+	 color: #ff5500;
+	 }
+.anchor:visited
+    {
+	 text-decoration: none;
+	 color: #ff5500;
+	 }
+.anchor:active
+    {
+	 text-decoration: none;
+	 color: #ff5500;
+	 }
+.anchor:hover
+    {
+	 text-decoration: none;
+	 color: #ff5500;
+	 }
+
+/* domyslne formatowanie obrazka */
+img
+    {border: 0px;}

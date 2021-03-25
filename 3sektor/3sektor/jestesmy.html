@@ -1,0 +1,47 @@
+<?php
+# zmienna kontrolna includowania
+$include = TRUE;
+
+# zmienna kontrolna do tagow
+$t = "jestesmy";
+
+# dolaczenie wymaganego pliku z funkcjami
+require "include/funkcje.inc";
+
+# tresc strony
+$tresc = "<h1><img width=\"150\" height=\"100\" alt=\"Kim jeste¶my\" src=\"img/"
+		 . $t . ".jpg\" align=\"left\" style=\"margin-right: 10px;\" />Kim jeste¶my</h1>";
+$tresc.= "<h3>
+			program <a href=\"#3sektor\">3sektor.org</a>, 
+			organizator: <a href=\"#kidprotect\">Fundacja Kidprotect.pl</a>, 
+			partner hostingowy: <a href=\"#lap\">Lap.pl</a>, 
+			partnerzy medialni: portal webmasterów <a href=\"#webinside\">Webinside.pl</a>, 
+			magazyn <a href=\"#internetmaker\">Internet Maker</a>, 
+			portal organizacji pozarz±dowych <a href=\"#ngo\">NGO.pl</a>, 
+			portal pracy dla bran¿y IT <a href=\"#pracait\">PracaIT.com</a>
+			</h3>";
+$tresc.= "<h4><a class=\"anchor\" name=\"3sektor\">3sektor.org</a></h4>";
+$tresc.= "<p>" . pobierz_TXT ("jestesmy_3sektor") . "</p>";
+$tresc.= "<p class=\"top\"><a href=\"#\">do góry</a></p>";
+$tresc.= "<h4><a class=\"anchor\" name=\"kidprotect\">Fundacja Kidprotect.pl</a></h4>";
+$tresc.= "<p>" . pobierz_TXT ("jestesmy_kidprotect") . "</p>";
+$tresc.= "<p class=\"top\"><a href=\"#\">do góry</a></p>";
+$tresc.= "<h4><a class=\"anchor\" name=\"lap\">Lap.pl</a></h4>";
+$tresc.= "<p>" . pobierz_TXT ("jestesmy_lap") . "</p>";
+$tresc.= "<p class=\"top\"><a href=\"#\">do góry</a></p>";
+$tresc.= "<h4><a class=\"anchor\" name=\"webinside\">Webinside.pl</a></h4>";
+$tresc.= "<p>" . pobierz_TXT ("jestesmy_webinside") . "</p>";
+$tresc.= "<p class=\"top\"><a href=\"#\">do góry</a></p>";
+$tresc.= "<h4><a class=\"anchor\" name=\"internetmaker\">Internet Maker</a></h4>";
+$tresc.= "<p>" . pobierz_TXT ("jestesmy_internetmaker") . "</p>";
+$tresc.= "<p class=\"top\"><a href=\"#\">do góry</a></p>";
+$tresc.= "<h4><a class=\"anchor\" name=\"ngo\">NGO.pl</a></h4>";
+$tresc.= "<p>" . pobierz_TXT ("jestesmy_ngo") . "</p>";
+$tresc.= "<p class=\"top\"><a href=\"#\">do góry</a></p>";
+$tresc.= "<h4><a class=\"anchor\" name=\"pracait\">PracaIT.com</a></h4>";
+$tresc.= "<p>" . pobierz_TXT ("jestesmy_pracait") . "</p>";
+$tresc.= "<p class=\"top\"><a href=\"#\">do góry</a></p>";
+
+# wyswietlenie szablonu
+print czytajSzablon ($tresc);
+?>

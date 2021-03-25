@@ -1,0 +1,18 @@
+<?php
+# zmienna kontrolna includowania
+$include = TRUE;
+
+# zmienna kontrolna do tagow
+$t = "webmaster";
+
+# dolaczenie wymaganego pliku z funkcjami
+require "include/funkcje.inc";
+
+# tresc strony
+$tresc = "<h1><img width=\"150\" height=\"100\" alt=\"Webmaster Dla NGO\" src=\"img/"
+		 . $t . ".jpg\" align=\"left\" style=\"margin-right: 10px;\" />Webmaster Dla NGO</h1>";
+$tresc.= "<p>" . pobierz_TXT ("webmaster") . "</p>";
+
+# wyswietlenie szablonu
+print czytajSzablon ($tresc);
+?>
